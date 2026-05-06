@@ -49,16 +49,6 @@ function desktopBrowser() {
 }
 
 
-function closeBacklinks() {
-document.getElementById("backlinksPlace").style.display= "none";
-return false;
-}
-
-
-function insertBacklinks() {
-if (inFrame()) {
-  return false;
-}
 if (!desktopBrowser()) {
   return false;
 }
